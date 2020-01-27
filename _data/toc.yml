@@ -22,19 +22,31 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Home
-  url: /intro
+# # Add a header and sample content section
+- header: My Learning Area (Clinical staff)
+
+- title: National Curriculum and Competency Framework
+  url: /curriculum/scope
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Respiritory 
+    url: /curriculum/respiritory
+    not_numbered: true
+
+# Divider for meta-pages and content page
+- divider: true
+
+# Geeks page
+- title: Tech Gurus section
+  url: /features/geeks
   not_numbered: true
 
 # External link
-- title: GitHub repository
+- title: jupyter-book GitHub repository...
   url: https://github.com/jupyter/jupyter-book
   external: true
   not_numbered: true
-
-# Adds a searchbar link
-- title: Search
-  search: true
 
 # Divider for meta-pages and content page
 - divider: true
@@ -54,3 +66,8 @@
   - title: Jupyter notebooks
     url: /features/notebooks
     not_numbered: true
+
+# Divider for meta-pages and content page
+- divider: true
+
+
