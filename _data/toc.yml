@@ -32,10 +32,10 @@
   sections:
   - title: Respiritory 
     url: /curriculum/respiritory
-    not_numbered: true    
-  - title: Quiz
-    url: /curriculum/quiz/quiz
-    not_numbered: true
+    not_numbered: true       
+  - title: Respiritory Quiz
+    url: /curriculum/quiz
+    not_numbered: true   
 
 # Divider for meta-pages and content page
 - divider: true
